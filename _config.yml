@@ -108,7 +108,7 @@ analytics:
 # Site Author
 author:
   name             : "Georgios Anagnopoulos"
-  avatar           : #"/images/bio-photo.jpg"
+  avatar           : "/images/avatar.jpg"
   bio              : "Postgraduate on Computer Science."
   location         : "Heraklion"
   email            : "gganagno@gmail.com"
@@ -122,7 +122,7 @@ footer:
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
-      url: mailto:gganagno@gmail.com
+      url: "mailto:gganagno@gmail.com"
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
       url: "https://twitter.com/gganagno"
@@ -276,6 +276,7 @@ defaults:
   - scope:
       path: ""
       type: pages
-      values:
-        layout: single
-        author_profile: true
+    values:
+      layout: single
+      author_profile: true
+
