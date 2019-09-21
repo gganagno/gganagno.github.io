@@ -19,8 +19,8 @@ locale                   : "en-US"
 title                    : "Portofolio"
 title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
-name                     : "Giorgos Anagnopoulos"
-description              : "An amazing website."
+name                     : "Georgios Anagnopoulos"
+description              : " "
 url                      : # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
@@ -109,7 +109,7 @@ analytics:
 author:
   name             : "Georgios Anagnopoulos"
   avatar           : "/images/avatar.jpg"
-  bio              : "Postgraduate on Computer Science."
+  bio              : " "
   location         : "Heraklion"
   email            : "gganagno@gmail.com"
   github           : "gganagno"
@@ -131,13 +131,14 @@ footer:
       url: "https://www.linkedin.com/in/ganagno/"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      url: "https://github.com/"
+      url: "https://github.com/gganagno"
 
 
 # Reading Files
 include:
   - .htaccess
   - _pages
+  - images
 exclude:
   - "*.sublime-project"
   - "*.sublime-workspace"
