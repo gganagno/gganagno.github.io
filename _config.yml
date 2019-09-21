@@ -108,7 +108,7 @@ analytics:
 # Site Author
 author:
   name             : "Georgios Anagnopoulos"
-  avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  avatar           : "/images/avatar.jpg"
   bio              : "Postgraduate on Computer Science."
   location         : "Heraklion"
   email            : "gganagno@gmail.com"
