@@ -1,8 +1,9 @@
 ---
 title: "About"
 permalink: /about/
+author_profile = true
 header:
-	image: "/images/avatar.jpg"
+	image: "/images/wall.jpg"
 ---
 
 Wzzp myneihgbor
