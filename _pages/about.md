@@ -1,6 +1,8 @@
 ---
-title: "about"
+title: "About"
 permalink: /about/
+header:
+	image: "../images/wall.jpg"
 ---
 
-Wzzp myneihgborasdasd
+Wzzp myneihgbor
