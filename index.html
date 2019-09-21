@@ -4,6 +4,7 @@ author_profile: true
 ---
 
 Hello stranger, have a look at my projects:
+<div> </div>
 <style>
 * {
   box-sizing: border-box;
@@ -40,6 +41,33 @@ body {
   vertical-align: middle;
   width: 100%;
 }
+.column div span {
+	position: absolute;
+	bottom: -20px;
+	left: 0;
+	z-index: -1;
+	display: block;
+	width: 300px;
+	margin: 0;
+	padding: 0;
+	color: #444;
+	font-size: 18px;
+	text-decoration: none;
+	text-align: center;
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+	opacity: 0;
+}
+.hover01 figure img {
+	-webkit-transform: scale(1);
+	transform: scale(1);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+.hover01 figure:hover img {
+	-webkit-transform: scale(1.3);
+	transform: scale(1.3);
+}
 
 /* Responsive layout - makes a two column-layout instead of four columns */
 @media screen and (max-width: 1600px) {
@@ -64,8 +92,9 @@ body {
 
 <div class="row"> 
 
-  <div class="column">
-    <img src="/images/1.jpg" style="width:100%">
+  <div class="hover1 column">
+    <figure><img src="/images/1.jpg" style="width:100%"></figure>
+    <span>Hover</span>
   </div>
 
   <div class="column">
