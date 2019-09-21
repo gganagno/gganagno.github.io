@@ -16,7 +16,7 @@ minimal_mistakes_skin    : "dark" # "air", "aqua", "contrast", "dark", "dirt", "
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Portfolio"
+title                    : "ganagno's portfolio"
 title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
 name                     : "Georgios Anagnopoulos"
@@ -109,7 +109,7 @@ analytics:
 author:
   name             : "Georgios Anagnopoulos"
   avatar           : "/images/avatar.jpg"
-  bio              : #" "
+  bio              : " "
   location         : "Heraklion"
   email            : "gganagno@gmail.com"
   github           : "gganagno"
@@ -200,7 +200,7 @@ sass:
 
 # Outputting
 permalink: /:categories/:title/
-paginate: 5 # amount of posts to show
+paginate: 0 # amount of posts to show
 paginate_path: /page:num/
 timezone: # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
