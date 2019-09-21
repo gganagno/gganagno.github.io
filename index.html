@@ -4,7 +4,7 @@ author_profile: true
 ---
 
 Hello stranger, have a look at my projects:
-<div> </div>
+
 <style>
 * {
   box-sizing: border-box;
@@ -30,72 +30,43 @@ body {
 
 /* Create four equal columns that sits next to each other */
 .column {
-	margin: 15px 15px 0;
-	padding: 0;
-}
-.column:last-child {
-	padding-bottom: 60px;
-}
-.column::after {
-	content: '';
-	clear: both;
-	display: block;
-}
-.column div {
-	position: relative;
-	float: left;
-	width: 300px;
-	height: 200px;
-	margin: 0 0 0 25px;
-	padding: 0;
-}
-.column div:first-child {
-	margin-left: 0;
-}
-.column div span {
-	position: absolute;
-	bottom: -20px;
-	left: 0;
-	z-index: -1;
-	display: block;
-	width: 300px;
-	margin: 0;
-	padding: 0;
-	color: #444;
-	font-size: 18px;
-	text-decoration: none;
-	text-align: center;
-	-webkit-transition: .3s ease-in-out;
-	transition: .3s ease-in-out;
-	opacity: 0;
-}
-figure {
-	width: 300px;
-	height: 200px;
-	margin: 0;
-	padding: 0;
-	background: #fff;
-	overflow: hidden;
-}
-figure:hover+span {
-	bottom: -36px;
-	opacity: 1;
+  -ms-flex: 50%; /* IE10 */
+  flex: 50%;
+  max-width: 50%;
+  padding: 0 4px;
 }
 
-
-
-/* Zoom In #1 */
-.hover01 figure img {
-	-webkit-transform: scale(1);
-	transform: scale(1);
-	-webkit-transition: .3s ease-in-out;
-	transition: .3s ease-in-out;
-}
-.hover01 figure:hover img {
-	-webkit-transform: scale(1.3);
-	transform: scale(1.3);
+.column img {
+  margin-top: 8px;
+  vertical-align: middle;
+  width: 100%;
 }
 
+.middle {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.container:hover .image {
+  opacity: 0.3;
+}
+
+.container:hover .middle {
+  opacity: 1;
+}
+
+.text {
+  background-color: #4CAF50;
+  color: white;
+  font-size: 16px;
+  padding: 16px 32px;
+}
 
 /* Responsive layout - makes a two column-layout instead of four columns */
 @media screen and (max-width: 1600px) {
@@ -114,28 +85,31 @@ figure:hover+span {
     max-width: 100%;
   }
 }
+
+
 </style>
 
 <body>
 
 <div class="row"> 
 
-  <div class="hover1 column">
-		<div>
-    <figure><img src="/images/1.jpg" style="width:100%"></figure>
-    <span>Hover</span>
+  <div class="column">
+    <img src="/images/1.jpg" class="image" style="width:100%">
+    <div class="middle">
+    <div class="text">check</div>
+  </div>
   </div>
 
   <div class="column">
-    <img src="/images/2.jpg" style="width:100%">
+    <img src="/images/2.jpg" class="image" style="width:100%">
   </div>
 
   <div class="column">
-    <img src="/images/3.jpg" style="width:100%">
+    <img src="/images/3.jpg" class="image" style="width:100%">
   </div>
 
   <div class="column">
-    <img src="/images/4.jpg" style="width:100%">
+    <img src="/images/4.jpg" class="image" style="width:100%">
   </div>
 
 </div>
