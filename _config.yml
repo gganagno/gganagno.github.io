@@ -114,19 +114,8 @@ author:
   email            : "gganagno@gmail.com"
   github           : "gganagno"
   linkedin         : "ganagno"
+  twitter          : "gganagno"
   links:
-    - label: "Email"
-      icon: "fas fa-fw fa-envelope-square"
-      url: mailto:gganagno@gmail.com
-    - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
-      url: "https://twitter.com/gganagno"
-    - label: "LinkedIn"
-      icon: "fab fa-fw fa-linked-in"
-      url: "https://www.linkedin.com/in/ganagno/"
-    - label: "GitHub"
-      icon: "fab fa-fw fa-github"
-      url: "https://github.com/"
 
 # Site Footer
 footer:
@@ -138,7 +127,7 @@ footer:
       icon: "fab fa-fw fa-twitter-square"
       url: "https://twitter.com/gganagno"
     - label: "LinkedIn"
-      icon: "fab fa-fw fa-linked-in"
+      icon: "fab fa-fw fa-linkedin-in"
       url: "https://www.linkedin.com/in/ganagno/"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
