@@ -2,7 +2,7 @@
 title: "About"
 permalink: /about/
 header:
-	image: "../images/wall.jpg"
+	image: "/images/avatar.jpg"
 ---
 
 Wzzp myneihgbor
