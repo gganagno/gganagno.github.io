@@ -16,11 +16,11 @@ minimal_mistakes_skin    : "dark" # "air", "aqua", "contrast", "dark", "dirt", "
 
 # Site Settings
 locale                   : "en-US"
-title                    : "![suit](https://cdn3.iconfinder.com/data/icons/gray-toolbar-2/512/briefcase_career_suitcase-512.png)"
+title                    : #" "
 title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
 name                     : "Georgios Anagnopoulos"
-description              : " "
+description              : #" "
 url                      : # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
@@ -109,13 +109,13 @@ analytics:
 author:
   name             : "Georgios Anagnopoulos"
   avatar           : "/images/avatar.jpg"
-  bio              : " "
+  bio              : #" "
   location         : "Heraklion"
   email            : "gganagno@gmail.com"
   github           : "gganagno"
   linkedin         : "ganagno"
   twitter          : "gganagno"
-  links:
+  links: #
 
 # Site Footer
 footer:
